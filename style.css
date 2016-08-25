@@ -1,9 +1,43 @@
 body {
-  background-color: blue;
+  background-color: lightyellow;
 }
 
 #title {
   margin: 0 auto;
   font-family: cursive;
   font-weight: bold;
+}
+
+.main {
+  border: 1px solid black;
+  width: 98%;
+  margin: 0 auto;
+  height: 200px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cardCol {
+  border: 1px solid red;
+  width: 43%;
+  float: left;
+  height: 50px;
+}
+
+.middleCol {
+  width: 10%;
+  float: left;
+  height: 50px;
+  border: 1px solid white;
+}
+
+@media screen and (max-width: 959px){
+  body {
+    background-color: blue;
+  }
+  .cardCol {
+    width: 100%;
+    background-color: pink;
+  }
 }
