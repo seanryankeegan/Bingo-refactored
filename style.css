@@ -33,11 +33,16 @@ body {
 }
 
 @media screen and (max-width: 959px){
-  body {
-    background-color: blue;
+  .main {
+    width:100%;
+    display: block;
   }
   .cardCol {
     width: 100%;
     background-color: pink;
+  }
+  .middleCol {
+    margin: 0 auto;
+    background-color: blue;
   }
 }
