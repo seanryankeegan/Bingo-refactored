@@ -37,6 +37,7 @@ body {
   .main {
     width:100%;
     display: block;
+    margin: 0 auto;
   }
   .cardCol {
     width: 100%;
@@ -44,7 +45,18 @@ body {
   }
   .middleCol {
     margin: 0 auto;
-    background-color: white;
+    width: 100%;
     font-size: 12px;
+    height: 100%;
+  }
+  #ballDiv {
+    background-color: white;
+    width: 10%;
+    margin: 0 auto;
+    border-radius: 100%;
+  }
+  #ballDiv p {
+    padding: 0;
+    margin: 0;
   }
 }
