@@ -10,7 +10,7 @@ body {
 
 .main {
   border: 1px solid black;
-  width: 98%;
+  width: 100%;
   margin: 0 auto;
   height: 200px;
   display:flex;
@@ -20,7 +20,7 @@ body {
 
 .cardCol {
   border: 1px solid red;
-  width: 43%;
+  width: 45%;
   float: left;
   height: 50px;
 }
@@ -30,9 +30,10 @@ body {
   float: left;
   height: 50px;
   border: 1px solid white;
+  font-size: 0px;
 }
 
-@media screen and (max-width: 959px){
+@media screen and (max-width: 1200px){
   .main {
     width:100%;
     display: block;
@@ -43,6 +44,7 @@ body {
   }
   .middleCol {
     margin: 0 auto;
-    background-color: blue;
+    background-color: white;
+    font-size: 12px;
   }
 }
