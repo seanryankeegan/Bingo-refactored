@@ -12,7 +12,7 @@ body {
   border: 1px solid black;
   width: 100%;
   margin: 0 auto;
-  height: 200px;
+  height: 500px;
   display:flex;
   flex-direction: row;
   justify-content: space-around;
@@ -33,6 +33,14 @@ body {
   font-size: 0px;
 }
 
+.leftCol {
+  background-color: blue;
+}
+
+.rightCol {
+  background-color: pink;
+}
+
 @media screen and (max-width: 1200px){
   .main {
     width:100%;
@@ -41,24 +49,27 @@ body {
   }
   .cardCol {
     width: 100%;
-    background-color: pink;
+    height: 20vh;
   }
+
   .middleCol {
     margin: 0 auto;
     width: 100%;
     font-size: 12px;
-    height: 100%;
+    height: 23%;
   }
-  #ballDiv {
-    background-color: white;
+  #ballContainer {
+    background-color: black;
     width: 10%;
     height: 100%;
     margin: 0 auto;
     border-radius: 100%;
   }
-  #ballDiv p {
-    padding: 0;
-    margin: 0;
-    height: 100%;
+
+  #ballDiv {
+      padding: 37%;
+      margin: 0px;
+      height: 100%;
+      color: white;
   }
 }
