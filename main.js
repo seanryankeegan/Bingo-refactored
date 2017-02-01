@@ -1,3 +1,1 @@
-window.onload = function(){
-  console.log("js running")
-}
+console.log("javascript running")
